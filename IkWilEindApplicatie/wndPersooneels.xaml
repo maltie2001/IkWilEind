@@ -1,0 +1,16 @@
+﻿<Window x:Class="IkWilEindApplicatie.wndPersooneels"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IkWilEindApplicatie"
+        mc:Ignorable="d"
+        Title="wndPersooneels" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnPersoneel" Content="Personeel" HorizontalAlignment="Left" Margin="124,188,0,0" VerticalAlignment="Top" Width="144" Height="86" Click="BtnPersoneel_Click"/>
+        <Button x:Name="btnEvenWork" Content="Evenement/Workshop" HorizontalAlignment="Left" Margin="526,188,0,0" VerticalAlignment="Top" Width="144" Height="86" Click="BtnEvenWork_Click"/>
+        <Button x:Name="btnCommunity" Content="Community Leden" HorizontalAlignment="Left" Margin="325,188,0,0" VerticalAlignment="Top" Width="144" Height="86" Click="BtnCommunity_Click"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="BtnBack_Click"/>
+
+    </Grid>
+</Window>
